@@ -51,7 +51,7 @@ var userSelectedGroup = {};
 var newestDate = new Date();
 var userSelected;
 
-var displayData = function(data, user) {
+var displayData = function(data, user) { // this is the function that sends messages
   var $results = [];
   var resultCount = 0;
 
